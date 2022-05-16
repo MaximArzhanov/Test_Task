@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="popup">
+    <div class="popup__overlay"></div>
+    <button class="popup__icon-close" type="button"></button>
+    <h2 class="popup__title">А вы уже пробовали &#171;генератор клиентов?&#187;</h2>
+    <div class="popup__image"></div>
+
+    <div class="application">
+      <h2 class="application__title">Успейте оставить заявку, чтобы получить подарок!</h2>
+
+      <div class="timer">
+        <p class="timer__timeleft">До окончания акции осталось:</p>
+        <div class="timer__container">
+          <div class="timer__time" id="hours">06</div>
+          <span class="timer__splitter">:</span>
+          <div class="timer__time" id="minutes">51</div>
+          <span class="timer__splitter">:</span>
+          <div class="timer__time" id="seconds">44</div>
+        </div>
+      </div>
+
+      <form class="form" name="form">
+        <input id="name" class="form__input"
+              type="text" name="name" required placeholder="Ваше Имя">
+        <input id="phone" class="form__input"
+              type="tel" name="phone" required>
+        <button class="form__button" type="submit">
+          Оставить заявку
+        </button>
+        <button class="form__button" type="button">
+          Отменить
+        </button>
+      </form>
+
+      <p class="copyright">
+        Работает на
+        <div class="copyright__company-logo"></div>
+        <span class="copyright__company-name">Envybox</span>
+      </p>
+
+    </div>
+  </div>
+</body>
+</html>
