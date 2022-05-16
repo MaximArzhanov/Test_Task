@@ -2,8 +2,33 @@
 @import url("../vendor/normalize.css");
 
 /*  Шрифты  */
-@import url("../vendor/fonts.css");
 
 /*  Общие стили страницы  */
-@import url("../blocks/root/root.css");
-@import url("../blocks/page/page.css");
+
+/*  popup  */
+@import url("../blocks/popup/popup.css");
+@import url("../blocks/popup/__overlay/popup__overlay.css");
+@import url("../blocks/popup/__icon-close/popup__icon-close.css");
+@import url("../blocks/popup/__title/popup__title.css");
+@import url("../blocks/popup/__image/popup__image.css");
+
+/*  application  */
+@import url("../blocks/application/application.css");
+@import url("../blocks/application/__title/application__title.css");
+
+/*  timer  */
+@import url("../blocks/timer/timer.css");
+@import url("../blocks/timer/__timeleft/timer__timeleft.css");
+@import url("../blocks/timer/__container/timer__container.css");
+@import url("../blocks/timer/__time/timer__time.css");
+@import url("../blocks/timer/__splitter/timer__splitter.css");
+
+/*  form  */
+@import url("../blocks/form/form.css");
+@import url("../blocks/form/__input/form__input.css");
+@import url("../blocks/form/__button/form__button.css");
+
+/*  copyright  */
+@import url("../blocks/copyright/copyright.css");
+@import url("../blocks/copyright/__company-logo/copyright__company-logo.css");
+@import url("../blocks/copyright/__company-name/copyright__company-name.css");
