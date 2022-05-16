@@ -1,3 +1,7 @@
 .copyright__company-logo {
-
+  background: url(../../../images/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
 }
