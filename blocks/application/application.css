@@ -1,6 +1,6 @@
 .application {
   margin: 0;
-  padding: 37px 22px 20px 22px;
+  padding: 37px 22px 15px 22px;
   grid-column: 2/3;
   grid-row: 1/2;
   display: flex;

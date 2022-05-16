@@ -38,3 +38,4 @@
 /*  copyright  */
 @import url("../blocks/copyright/copyright.css");
 @import url("../blocks/copyright/__company-logo/copyright__company-logo.css");
+@import url("../blocks/copyright/__text/copyright__text.css");
