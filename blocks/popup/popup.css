@@ -1,7 +1,10 @@
 .popup {
-  display: grid;
-  grid-template-columns: 500px 200px;
-  grid-template-rows: 1fr;
-
   margin: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 755px 290px;
+  grid-template-rows: 580px;
+  transform: translate(-5px, 10px);
 }

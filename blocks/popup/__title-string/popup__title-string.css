@@ -1,0 +1,19 @@
+.popup__title-string {
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.popup__title-string:first-child {
+  border-radius: 12px 12px 0 0;
+}
+
+.popup__title-string:last-child {
+  border-radius: 0 12px 12px 12px;
+}
