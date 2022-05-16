@@ -1,3 +1,11 @@
 .timer__splitter {
-
+  margin: 0;
+  margin-left: 6px;
+  padding: 0;
+  color: #242641;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  border-radius: 5px;
 }
