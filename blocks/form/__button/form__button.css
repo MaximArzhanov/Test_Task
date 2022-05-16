@@ -1,3 +1,18 @@
 .form__button {
+  margin: 0;
+  margin-top: 10px;
+  padding: 14px 14px 14px 14px;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #666;
+}
 
+.form__button:first-child {
+  margin-top: 0;
 }

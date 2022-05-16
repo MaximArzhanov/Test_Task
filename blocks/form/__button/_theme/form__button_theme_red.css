@@ -1,0 +1,5 @@
+.form__button_theme_red {
+  background-color: #fe3768;
+  color: #fff;
+  box-shadow: 0 5px 5px 0 rgba(254, 55, 104, .5);
+}
