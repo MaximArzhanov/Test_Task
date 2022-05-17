@@ -1,5 +1,13 @@
 .popup__icon-close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 16px;
+  right: 16px;
+  background-image: url(../../../images/icon-close.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13px;
+  height: 13px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
 }

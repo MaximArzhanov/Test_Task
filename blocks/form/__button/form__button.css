@@ -11,8 +11,5 @@
   width: 100%;
   box-sizing: border-box;
   color: #666;
-}
-
-.form__button:first-child {
-  margin-top: 0;
+  cursor: pointer;
 }
