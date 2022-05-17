@@ -2,6 +2,7 @@ const buttonOpen = document.querySelector('.button');
 const buttonClose = document.querySelector('.popup__icon-close');
 const overlay = document.querySelector('.overlay');
 const popup = document.querySelector('.popup');
+const form = document.querySelector('.form');
 
 const phoneField = document.querySelector('#phone');
 
@@ -15,6 +16,10 @@ function removeEventListeners() {
   overlay.removeEventListener('click', closePopup);
 }
 
+function close() {
+  overlay.classList.remove('overlay_opened');
+}
+
 // Открытие popup
 function openPopup() {
   overlay.classList.add('overlay_opened');
@@ -24,12 +29,10 @@ function openPopup() {
 // Закртытие popup
 function closePopup(evt) {
   if (evt.target === overlay || evt.target === buttonClose) {
-    overlay.classList.remove('overlay_opened');
+    close();
     removeEventListeners();
   }
 }
-
-buttonOpen.addEventListener('click', openPopup);
 
 function changePhone() {
   var newPhoneValue = '';
@@ -53,5 +56,13 @@ function setCursor() {
   }, 0);
 }
 
+function handlerSubmit(evt) {
+  evt.preventDefault();
+  close();
+}
+
+buttonOpen.addEventListener('click', openPopup);
 phoneField.addEventListener('focus', setCursor);
 phoneField.addEventListener('input', changePhone);
+form.addEventListener('submit', handlerSubmit);
+
